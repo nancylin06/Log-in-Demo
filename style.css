@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "montserrat" !important;
+}
+
+.wrap {
+	width: 1366px;
+	height: 796px;
+	margin: 0 auto;
+	/* background: linear-gradient(-45deg,#3265dd, #8646eb); */
+	background-color: rgb(139, 172, 232);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	width: 900px;
+	height: 500px;
+	background: linear-gradient(-45deg, blue, lightblue);
+	box-shadow: 6px 6px 20px -4px black,
+		-6px -6px 20px -5px white;
+	border-radius: 10px;
+}
+
+.content img {
+	width: 500px;
+	height: 250px;
+	margin-top: 100px;
+}
+
+.new {
+	float: left;
+	height: 500px;
+	width: 450px;
+}
+
+.welcome {
+	width: 300px;
+	height: 40px;
+	background: linear-gradient(-90deg, blue, lightblue);
+	font-size: 21px;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 6px 6px 20px -4px black,
+		-6px -6px 20px -5px white;
+	padding-top: 15px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+	margin-top: 40px;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+.welcome:hover {
+	background: linear-gradient(-90deg, lightblue, blue);
+}
+
+.form {
+	width: 430px;
+	height: 450px;
+	background-color: white;
+	margin-right: 20px;
+	margin-top: 25px;
+	border-radius: 10px;
+	opacity: 90%;
+	float: right;
+	box-shadow: inset 4px 4px 6px -1px darkgray,
+		inset -4px -4px 6px -1px white,
+		-0.5px 1.5px 0px 0px darkgray,
+		0.5px 0.5px 0.5px 0px white,
+		0px 12px 10px -10px white;
+}
+
+.box {
+	width: 80px;
+	height: 30px;
+	background: linear-gradient(-90deg, lightblue, blue);
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	padding: 5px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.box p{
+	margin-top: 2px;
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+.box:hover {
+	background: linear-gradient(-90deg, blue, lightblue);
+}
+
+.form h4 {
+	color: blue;
+	margin-top: 20px;
+	margin-left: 110px;
+	font-size: 18px;
+}
+
+.user input {
+	width: 300px;
+	height: 25px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid darkgray;
+	text-indent: 40px;
+	letter-spacing: 2px;
+}
+
+.user input:focus{
+	border-bottom: 1px solid blue;
+}
+
+.user input:focus + .fa-user{
+	color: blue;
+}
+
+.user {
+	width: 320px;
+	margin-top: 40px;
+	margin-left: 70px;
+	position: relative;
+}
+
+.pass input {
+	width: 300px;
+	height: 25px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid darkgray;
+	text-indent: 40px;
+	letter-spacing: 2px;
+}
+
+.pass input:focus{
+	border-bottom: 1px solid blue;
+}
+
+.pass input:focus + .fa-lock {
+	color: blue;
+}
+
+.pass {
+	width: 320px;
+	margin-top: 40px;
+	margin-left: 70px;
+	position: relative;
+}
+
+.fa-lock , .fa-user {
+	color: darkgray;
+	left: 1px;
+	top: 3px;
+	position: absolute;
+	font-size: 17px;
+}
+
+.form button {
+	border: none;
+	padding-top: 05px;
+	padding-bottom: 05px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: linear-gradient(-90deg, lightblue, blue);
+	color: white;
+	letter-spacing: 3px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-left: 155px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.form button:hover {
+	background: linear-gradient(-90deg, blue, lightblue);
+}
+
+.word {
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 110px;
+}
+
+.word p {
+	color: darkgray;
+	font-family: 10px;
+	cursor: pointer;
+}
+
+.word p:hover {
+	color: blue;
+}
